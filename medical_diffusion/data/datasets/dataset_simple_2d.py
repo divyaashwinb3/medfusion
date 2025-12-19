@@ -15,7 +15,7 @@ class SimpleDataset2D(data.Dataset):
         self,
         path_root,
         item_pointers =[],
-        crawler_ext = 'tif', # other options are ['jpg', 'jpeg', 'png', 'tiff'],
+        crawler_ext = 'jpg', # other options are ['jpg', 'jpeg', 'png', 'tiff'],
         transform = None,
         image_resize = None,
         augment_horizontal_flip = False,
